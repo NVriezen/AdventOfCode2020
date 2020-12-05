@@ -1,8 +1,0 @@
-﻿  AdventOfCode2020.cpp
-  Day5.cpp
-d:\c++\repos\adventofcode2020\adventofcode2020\day5.cpp(18): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
-d:\c++\repos\adventofcode2020\adventofcode2020\day5.cpp(21): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-d:\c++\repos\adventofcode2020\adventofcode2020\day5.cpp(35): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
-d:\c++\repos\adventofcode2020\adventofcode2020\day5.cpp(38): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
-  Generating Code...
-  AdventOfCode2020.vcxproj -> D:\c++\repos\AdventOfCode2020\Debug\AdventOfCode2020.exe
