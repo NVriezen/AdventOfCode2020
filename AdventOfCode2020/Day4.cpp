@@ -45,7 +45,7 @@ passport get_valid_passport(std::ifstream& input, bool cid_optional)
 		{
 			for (size_t j = 0; j < found_passport.fields_max; j++)
 			{
-				if (lines_to_check[i][0] + lines_to_check[i][1] == (&found_passport.byr)[j][0] + (&found_passport.byr)[j][1])
+				if (lines_to_check[i].substr(0, 3) == (&found_passport.byr)[j])
 				{
 					lines_to_check[i].replace(0, 4, "");
 					(&found_passport.byr)[j] = lines_to_check[i];
@@ -162,7 +162,7 @@ bool passport_valid(passport input, bool strict, bool cid_optional)
 			return check_fields_input(input, strict, cid_optional);
 		else if (input.fields_filled <= input.fields_max - 2)
 			return false;
-		if (input.cid[0] + input.cid[1] == 'c' + 'i')
+		if (input.cid.substr(0,3) == "cid")
 			return check_fields_input(input, strict, cid_optional);
 		return false;
 	}
@@ -199,23 +199,6 @@ int answer_day4_puzzle2()
 	if (input_file.is_open())
 	{
 		valid_passports = 0;
-		std::cout << check_year("2002", 1920, 2002);
-		std::cout << check_year("2003", 1920, 2002);
-
-		std::cout << check_hgt("60in");
-		std::cout << check_hgt("190cm");
-		std::cout << check_hgt("190in");
-		std::cout << check_hgt("190");
-
-		std::cout << check_hcl("#123abc");
-		std::cout << check_hcl("#123abz");
-		std::cout << check_hcl("123abc");
-
-		std::cout << check_ecl("brn");
-		std::cout << check_ecl("wat");
-
-		std::cout << check_pid("000000001");
-		std::cout << check_pid("0123456789");
 		while (true)
 		{
 			passport pass = get_valid_passport(input_file, true);
