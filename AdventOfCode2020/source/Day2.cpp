@@ -1,8 +1,6 @@
-#include "Day2.h"
+#include "..\include\Day2.h"
 
-#include <iostream>
-#include <fstream>
-#include <string>
+#include "..\include\StringParsing.h"
 
 std::string* custom_line_split(std::ifstream& input)
 {

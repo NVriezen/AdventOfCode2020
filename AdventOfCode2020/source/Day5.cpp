@@ -1,8 +1,6 @@
-#include "Day5.h"
+#include "..\include\Day5.h"
 
-#include <iostream>
-#include <fstream>
-#include <string>
+#include "..\include\StringParsing.h"
 
 int max_rows = 127;
 int max_columns = 7;

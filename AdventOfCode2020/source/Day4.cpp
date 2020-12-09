@@ -1,9 +1,6 @@
-#include "Day4.h"
+#include "..\include\Day4.h"
 
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <ios>
+#include "..\include\StringParsing.h"
 
 struct passport
 {

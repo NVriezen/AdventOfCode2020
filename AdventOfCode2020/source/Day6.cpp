@@ -1,8 +1,6 @@
-#include "Day6.h"
+#include "..\include\Day6.h"
 
-#include <iostream>
-#include <fstream>
-#include <string>
+#include "..\include\StringParsing.h"
 
 int get_group_sum(std::ifstream& input)
 {

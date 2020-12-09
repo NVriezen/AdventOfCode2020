@@ -1,8 +1,6 @@
-#include "Day1.h"
+#include "..\include\Day1.h"
 
-#include <iostream>
-#include <fstream>
-#include <string>
+#include "..\include\StringParsing.h"
 
 std::ifstream& goto_line(std::ifstream& file, unsigned int line_position)
 {

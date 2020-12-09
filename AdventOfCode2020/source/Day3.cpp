@@ -1,10 +1,8 @@
-#include "Day3.h"
+#include "..\include\Day3.h"
 
-#include <iostream>
-#include <fstream>
-#include <string>
+#include "..\include\StringParsing.h"
 
-#include "Day1.h"
+#include "..\include\Day1.h"
 
 int x_position = 0;
 int y_position = 1;

@@ -15,51 +15,90 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AdventOfCode2020.cpp">
+    <ClCompile Include="source\AdventOfCode2020.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day1.cpp">
+    <ClCompile Include="source\Day1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day2.cpp">
+    <ClCompile Include="source\Day2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day3.cpp">
+    <ClCompile Include="source\Day3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day4.cpp">
+    <ClCompile Include="source\Day4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day5.cpp">
+    <ClCompile Include="source\Day5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day6.cpp">
+    <ClCompile Include="source\Day6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day7.cpp">
+    <ClCompile Include="source\Day7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day8.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day12.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day15.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day16.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day17.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day18.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day19.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day20.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day21.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day23.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day24.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Day25.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Day1.h">
+    <ClInclude Include="include\Days.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Day2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Day3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Day4.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Day5.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Day6.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Day7.h">
+    <ClInclude Include="include\StringParsing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
