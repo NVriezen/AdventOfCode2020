@@ -16,8 +16,8 @@ int main()
 	//std::cout << "Day 6 \t Puzzle 1: " << answer_day6_puzzle1() << "\t\t Puzzle 2: " << answer_day6_puzzle2() << "\n";
 	//std::cout << "Day 7 \t Puzzle 1: " << answer_day7_puzzle1() << "\t\t Puzzle 2: " << answer_day7_puzzle2() << "\n";
 	//std::cout << "Day 8 \t Puzzle 1: " << answer_day8_puzzle1() << "\t\t Puzzle 2: " << answer_day8_puzzle2() << "\n";
-	std::cout << "Day 9 \t Puzzle 1: " << answer_day9_puzzle1() << "\t\t Puzzle 2: " << answer_day9_puzzle2() << "\n";
-	//std::cout << "Day 10 \t Puzzle 1: " << answer_day10_puzzle1() << "\t\t Puzzle 2: " << answer_day10_puzzle2() << "\n";
+	//std::cout << "Day 9 \t Puzzle 1: " << answer_day9_puzzle1() << "\t\t Puzzle 2: " << answer_day9_puzzle2() << "\n";
+	std::cout << "Day 10 \t Puzzle 1: " << answer_day10_puzzle1() << "\t\t Puzzle 2: " << answer_day10_puzzle2() << "\n";
 	//std::cout << "Day 11 \t Puzzle 1: " << answer_day11_puzzle1() << "\t\t Puzzle 2: " << answer_day11_puzzle2() << "\n";
 	//std::cout << "Day 12 \t Puzzle 1: " << answer_day12_puzzle1() << "\t\t Puzzle 2: " << answer_day12_puzzle2() << "\n";
 	//std::cout << "Day 13 \t Puzzle 1: " << answer_day13_puzzle1() << "\t\t Puzzle 2: " << answer_day13_puzzle2() << "\n";
